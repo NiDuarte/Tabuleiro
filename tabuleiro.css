@@ -1,0 +1,73 @@
+.xadrez {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .title {
+    display: flex;
+  }
+  .title p {
+    flex: 0 0 50%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: -3px;
+  }
+   
+  /* tabuleiro 1 com div */
+   
+  .x2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .torre {
+    background-color: black;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+  }
+   
+  .bispo {
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+  }
+   
+  /* tabuleiro 2 com table ; */
+   
+  .peças {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  #dama {
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+  }
+   
+  #rei {
+    background-color: black;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+  }
